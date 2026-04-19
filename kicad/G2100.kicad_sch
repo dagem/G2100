@@ -1,10 +1,56 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
-	(uuid 1da2256c-4c72-4672-9a29-56747b7c7ccf)
+	(generator_version "10.0")
+	(uuid "1da2256c-4c72-4672-9a29-56747b7c7ccf")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 33.02 54.61)
+		(size 39.37 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0a727741-06d4-43ef-a00e-427be0981090")
+		(property "Sheetname" "Switch Matrix"
+			(at 33.02 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_matrix.kicad_sch"
+			(at 33.02 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "G2100"
+				(path "/1da2256c-4c72-4672-9a29-56747b7c7ccf"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
